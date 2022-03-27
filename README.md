@@ -7,11 +7,13 @@
 
 ## Packages 🛠
 - [Next JS](https://nextjs.org/)
+- [React](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 - [Recoil](https://recoiljs.org/)
 - [Styled Components](https://styled-components.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Next SEO](https://github.com/garmeeh/next-seo)
+- [Lodash](https://lodash.com/)
 
 ## How to Install 📥
 ```bash
