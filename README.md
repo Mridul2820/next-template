@@ -5,7 +5,7 @@
 <br />
 <br />
 
-## Packages 🛠
+## Packages Installed 🛠
 - [Next JS](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
