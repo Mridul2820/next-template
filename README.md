@@ -3,12 +3,11 @@
 </div>
 
 <br />
-<br />
 
 ## Packages Installed 🛠
-- [Next JS](https://nextjs.org/)
-- [React](https://reactjs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- **[Next JS](https://nextjs.org/)**
+- **[React](https://reactjs.org/)**
+- **[Tailwind](https://tailwindcss.com/)**
 - [Recoil](https://recoiljs.org/)
 - [Styled Components](https://styled-components.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
@@ -16,8 +15,11 @@
 - [Lodash](https://lodash.com/)
 
 ## How to Install 📥
+- **With YARN**
 ```bash
 yarn create next-app -e https://github.com/Mridul2820/next-template
-# or
+```
+- **WIth NPM**
+```
 npx create-next-app -e https://github.com/Mridul2820/next-template
 ```
