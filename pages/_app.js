@@ -1,17 +1,17 @@
-import { RecoilRoot } from 'recoil'
-import '../styles/globals.css'
+import { RecoilRoot } from 'recoil';
+import '../styles/globals.css';
 
 // SEO
-import { DefaultSeo } from 'next-seo'
-import SEO from '../next-seo.config'
+import { DefaultSeo } from 'next-seo';
+import SEO from '../next-seo.config';
 
 function MyApp({ Component, pageProps }) {
-    return (
-        <RecoilRoot>
-            <DefaultSeo {...SEO} />
-            <Component {...pageProps} />
-        </RecoilRoot>
-    )
+  return (
+    <RecoilRoot>
+      <DefaultSeo {...SEO} />
+      <Component {...pageProps} />
+    </RecoilRoot>
+  );
 }
 
-export default MyApp
+export default MyApp;

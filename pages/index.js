@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
-    return (
-        <div className='font-bold'>
-            App
-        </div>
-    )
-}
+  return <div className="font-bold">App</div>;
+};
 
-export default Home
+export default Home;
