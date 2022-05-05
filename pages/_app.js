@@ -1,4 +1,3 @@
-import { RecoilRoot } from 'recoil';
 import '../styles/globals.css';
 
 // SEO
@@ -7,10 +6,10 @@ import SEO from '../next-seo.config';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <RecoilRoot>
+    <>
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
-    </RecoilRoot>
+    </>
   );
 }
 
