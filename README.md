@@ -19,7 +19,7 @@
 - **With YARN**
 
 ```bash
-yarn create next-app -e https://github.com/Mridul2820/next-template
+yarn create-next-app -e https://github.com/Mridul2820/next-template
 ```
 
 - **WIth NPM**
