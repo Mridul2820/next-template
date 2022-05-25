@@ -2,8 +2,7 @@ const path = require('path');
 require('dotenv').config();
 
 module.exports = {
-  env: {
-  },
+  env: {},
   publicRuntimeConfig: {},
   images: {
     formats: ['image/avif', 'image/webp'],

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: #f1f5f8;
-}
-
 * {
   scroll-behavior: smooth;
   scrollbar-width: thin;
