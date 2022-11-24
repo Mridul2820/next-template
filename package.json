@@ -7,7 +7,10 @@
     "start": "next start",
     "lint": "next lint",
     "lint-fix": "next lint --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "lint-format": "npm run lint && npm run format-check",
+    "lint-format-fix": "npm run lint-fix && npm run format"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
