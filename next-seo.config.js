@@ -1,4 +1,4 @@
-export default {
+const SEO = {
   title: 'Next Template',
   description: 'Next Template',
   twitter: {
@@ -19,3 +19,5 @@ export default {
     // ],
   },
 };
+
+export default SEO;
