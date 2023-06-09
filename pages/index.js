@@ -1,18 +1,18 @@
-import { NextSeo } from 'next-seo';
-import { IoPauseOutline } from 'react-icons/io5';
+import { NextSeo } from "next-seo";
+import { IoPauseOutline } from "react-icons/io5";
 
 export default function Home() {
   const SEO = {
-    title: 'Next JS Template',
-    description: 'Next JS Template with Tailwind CSS and React Icons',
+    title: "Next JS Template",
+    description: "Next JS Template with Tailwind CSS and React Icons",
 
     openGraph: {
-      title: 'Next JS Template',
-      description: 'Next JS Template with Tailwind CSS and React Icons',
-      type: 'website',
-      locale: 'en_IN',
-      url: 'mridul.tech',
-      site_name: 'Next JS Template',
+      title: "Next JS Template",
+      description: "Next JS Template with Tailwind CSS and React Icons",
+      type: "website",
+      locale: "en_IN",
+      url: "mridul.tech",
+      site_name: "Next JS Template",
     },
   };
 
@@ -24,12 +24,12 @@ export default function Home() {
         <h1 className="text-5xl font-bold">
           <a className="text-blue-600" href="https://nextjs.org">
             Next.js
-          </a>{' '}
+          </a>{" "}
           Template Home Page!
         </h1>
 
         <p className="mt-5 text-2xl">
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
             pages/index.js
           </code>
@@ -80,7 +80,7 @@ export default function Home() {
 
       <footer className="p-3 flex justify-center items-center gap-1 flex-col sm:flex-row bg-white">
         <span className="flex items-center">
-          Template by{' '}
+          Template by{" "}
           <a
             className="ml-1 font-semibold"
             href="https://www.mridul.tech/"
@@ -94,14 +94,14 @@ export default function Home() {
           </span>
         </span>
         <span>
-          Made with ❤ {'& '}
+          Made with ❤ {"& "}
           <a
             className="ml-1 font-semibold"
             href="https://github.com/Mridul2820/next-template"
             target="_blank"
             rel="noreferrer"
           >
-            {'<Code/>'}
+            {"<Code/>"}
           </a>
         </span>
       </footer>

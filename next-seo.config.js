@@ -1,14 +1,14 @@
 const SEO = {
-  title: 'Next Template',
-  description: 'Next Template',
+  title: "Next Template",
+  description: "Next Template",
   twitter: {
-    cardType: 'summary_large_image',
+    cardType: "summary_large_image",
   },
   openGraph: {
-    type: 'website',
-    locale: 'en_IN',
-    url: 'mridul.tech',
-    site_name: 'Next Template',
+    type: "website",
+    locale: "en_IN",
+    url: "mridul.tech",
+    site_name: "Next Template",
     // images: [
     //     {
     //         url: "",
