@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 
 module.exports = {
   reactStrictMode: true,
@@ -9,7 +9,7 @@ module.exports = {
   env: {},
   publicRuntimeConfig: {},
   images: {
-    formats: ['image/avif', 'image/webp'],
-    domains: ['localhost', 'res.cloudinary.com'],
+    formats: ["image/avif", "image/webp"],
+    domains: ["localhost", "res.cloudinary.com"],
   },
 };
