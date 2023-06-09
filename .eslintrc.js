@@ -32,7 +32,7 @@ module.exports = {
     'import/no-named-as-default': 0,
     'react/prop-types': 0,
     'import/extensions': 0,
-    'react/react-in-jsx-scope': 'off',
+    'react/react-in-jsx-scope': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/display-name': 1,
     'no-empty': 0,
@@ -41,5 +41,6 @@ module.exports = {
     '@next/next/no-script-component-in-head': 0,
     '@next/next/no-img-element': 0,
     '@next/next/no-html-link-for-pages': 0,
+    'import/no-anonymous-default-export': 0,
   },
 };
