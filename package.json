@@ -5,8 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start -p 3016",
+    "start-server": "node server.js",
+    "start-local": "next start",
+    "check-format": "prettier --check .",
+    "format": "prettier --write .",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
+    "lint-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "16.1.1",
@@ -20,7 +27,13 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "husky": "^8.0.3",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
