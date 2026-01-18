@@ -29,6 +29,36 @@ A modern, production-ready Next.js template featuring shadcn/ui components, Type
 - Node.js 18+
 - npm, yarn, pnpm, or bun
 
+### Use This As a Template
+
+You can bootstrap a new project using this repository as a Next.js template.
+
+> Note: Run these commands in an empty folder (or use a new folder name instead of `.`).
+
+**npm**
+
+```bash
+npx create-next-app@latest . -e https://github.com/Mridul2820/next-template
+```
+
+**yarn**
+
+```bash
+yarn create next-app . -e https://github.com/Mridul2820/next-template
+```
+
+**pnpm**
+
+```bash
+pnpm create next-app . -e https://github.com/Mridul2820/next-template
+```
+
+**bun**
+
+```bash
+bunx create-next-app@latest . -e https://github.com/Mridul2820/next-template
+```
+
 ### Installation
 
 1. Clone the repository
